@@ -1,0 +1,70 @@
+/*
+Styles front-end elements of Adyen fraud check plugin
+*/
+/*
+    Created on : 08 Apr 2020, 17:53:55
+    Author     : vanbe
+*/
+
+div#adafoverlay {
+    position: fixed;
+    height: 100%;
+    width: 100vw;
+    background: #000000ad;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+
+div#adafrcmodal {
+    position: fixed;
+    width: 364px;
+    top: 10vh;
+    left: 40%;
+    z-index: 10000;
+    background: white;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px black;
+}
+
+span#adaf_modal_close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: lightgray;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    padding: 2px 9px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+input#rcv2submit {
+    background-color: #0587f9;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    margin-bottom: 0;
+}
+
+div#rcv2checknote {
+    color: #0c0c0c;
+    line-height: 3;
+    background-color: #ff000075;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.g-recaptcha {
+    margin-bottom: 15px;
+}
+
+form#adyrcv2 {
+    margin-bottom: 0;
+}
+
