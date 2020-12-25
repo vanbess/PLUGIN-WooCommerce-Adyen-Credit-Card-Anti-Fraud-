@@ -1,2 +1,2 @@
-# adyen-cc-anti-fraud
-Adyen credit card anti fraud plugin (Add-on for Adyen payment gateway)
+# SWBC Adyen Credit Card Anti Fraud 
+Adyen credit card anti fraud plugin (Add-on for SWBC Adyen Payment Gateway).
